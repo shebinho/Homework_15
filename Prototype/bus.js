@@ -71,8 +71,6 @@
 
 	let bus1 = new DracevoBus(31, 'red', false,36,35);
 	let bus2 = new AerodromBus(51, 'red', true,51,35);
-	console.log (bus1.getInfo());
-	console.log(bus2.getInfo());
 	console.log(bus1.checkSeats());
 	console.log(bus2.checkSeats());
 	console.log(bus1.checkForMoney());
