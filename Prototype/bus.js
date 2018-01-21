@@ -24,7 +24,7 @@
 	
 
 	DracevoBus.prototype = Object.create(Bus.prototype);
-	DracevoBus.prototype.constructor = AerodromBus;
+	DracevoBus.prototype.constructor = DracevoBus;
 	DracevoBus.prototype._super = Bus;
 
 	function AerodromBus(passengers, color,conductor,seats,priceTicket,linenumber)
