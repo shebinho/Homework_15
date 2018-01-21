@@ -71,16 +71,16 @@
 
 	let bus1 = new DracevoBus(31, 'red', false,36,35);
 	let bus2 = new AerodromBus(51, 'red', true,51,35);
-	console.log(bus1.checkSeats());
-	console.log(bus2.checkSeats());
-	console.log(bus1.checkForMoney());
-	console.log(bus2.checkForMoney());
-	console.log(bus1.busStatus());
-	console.log(bus2.busStatus());
-	console.log(bus1.getIsMoving());
-	console.log(bus2.getIsMoving());
-	console.log(bus1.getIsWorking());
-	console.log(bus2.getIsWorking());
+	console.log("DracevoBus : "+ bus1.checkSeats());
+	console.log("AerodromBus : "+bus2.checkSeats());
+	console.log("DracevoBus : "+bus1.checkForMoney());
+	console.log("AerodromBus : "+bus2.checkForMoney());
+	console.log("DracevoBus : "+bus1.busStatus());
+	console.log("AerodromBus : "+bus2.busStatus());
+	console.log("DracevoBus : "+bus1.getIsMoving());
+	console.log("AerodromBus : "+bus2.getIsMoving());
+	console.log("DracevoBus : "+bus1.getIsWorking());
+	console.log("AerodromBus : "+bus2.getIsWorking());
 	console.log(bus1.getInfo());
 	console.log(bus2.getInfo());
 	
