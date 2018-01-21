@@ -51,7 +51,7 @@
 		return (this.conductor) ?  "You\'ve collected "+collectMoney+" denars" : "Gaga vozenje udrii";
 	}
 	Bus.prototype.busStatus = function(){
-		return (this.isDamaged)? "The bus is broken " : "The bus is moving and functional";
+		return (this.isDamaged)? "The bus is damaged " : "The bus is not damaged";
 	}
 	
 	Bus.prototype.getIsMoving = function()
@@ -71,6 +71,8 @@
 
 	let bus1 = new DracevoBus(31, 'red', false,36,35);
 	let bus2 = new AerodromBus(51, 'red', true,51,35);
+	console.log (bus1.getInfo());
+	console.log(bus2.getInfo());
 	console.log(bus1.checkSeats());
 	console.log(bus2.checkSeats());
 	console.log(bus1.checkForMoney());
